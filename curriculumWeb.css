@@ -141,3 +141,38 @@ a img:hover {
     box-shadow: 0 10px 30px rgba(0,0,0,0.3); 
     overflow: hidden; 
 }
+
+/* Adaptacion para abrir la web en el movil con el qr */
+@media (max-width: 768px) {
+    
+    nav ul {
+        flex-wrap: wrap;
+        gap: 10px;
+        padding: 5px;
+    }
+    nav a {
+        font-size: 14px; 
+    }
+
+    .contenedor-principal {
+        margin: 15px; 
+        border-radius: 8px;
+    }
+
+    .seccion, .fondo-gris {
+        padding: 30px 20px;
+    }
+
+    .foto-perfil img {
+        width: 150px;
+        height: 150px;
+    }
+
+    .botones .btn {
+        display: block;
+        width: 100%;
+        text-align: center;
+        box-sizing: border-box;
+        margin-right: 0;
+    }
+}
