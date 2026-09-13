@@ -153,7 +153,6 @@
         <section id="cv" class="seccion">
             <h2>Currículum Vitae</h2>
             <p>Puedes descargar aquí mi currículum en formato PDF: </p>
-            <!-- En el href pondrás el nombre de tu archivo PDF cuando lo subamos -->
             <a href="Curriculum.pdf" target="_blank" class="btn btn-verde">Descargar CV en PDF</a>
         </section>
 
@@ -173,19 +172,16 @@
     <!-- Script de Fancybox -->
     <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
     <script>
-        // Inicializar Fancybox
+       
         Fancybox.bind("[data-fancybox]", {
-            // Aquí puedes añadir opciones, pero por defecto funciona perfecto
         });
     </script>
 
     <script>
         function abrirPestana(idPestana) {
-            // Oculta todas las secciones
             let secciones = document.querySelectorAll('.seccion');
             secciones.forEach(sec => sec.classList.remove('activa'));
 
-            // Muestra solo la que has clicado
             document.getElementById(idPestana).classList.add('activa');
         }
     </script>
