@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currículum - Leyre Domínguez</title>
+    <link rel="stylesheet" href="curriculumWeb.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css" />
+</head>
+
+<body>
+
+    <nav>
+        <ul>
+            <li><a href="#" onclick="abrirPestana('inicio')">Inicio</a></li>
+            <li><a href="#" onclick="abrirPestana('sobre-mi')">Sobre mí</a></li>
+            <li><a href="#" onclick="abrirPestana('proyectos')">Proyectos</a></li>
+            <li><a href="#" onclick="abrirPestana('competencias')">Competencias</a></li>
+            <li><a href="#" onclick="abrirPestana('cv')">Currículum</a></li>
+            <li><a href="#" onclick="abrirPestana('contacto')">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <div class="contenedor-principal">
+        <!-- 1. INICIO -->
+        <section id="inicio" class="seccion activa">
+            <div class="foto-perfil">
+                <img src="IMG_7293b.jpeg" alt="Foto de Leyre Domínguez">
+            </div>
+            <div class="presentacion">
+                <h1>Leyre Domínguez Sanz</h1>
+                <h2>Técnica en Desarrollo Multiplataforma | Desarrolladora Junior</h2>
+                <p>Desarrolladora de software junior especializada en entornos multiplataforma, con sólidos
+                    conocimientos en
+                    Java y bases de datos (SQL). Aporto más de siete años de experiencia previa en sectores de alta
+                    exigencia logística y de servicios, lo que me ha dotado de una gran capacidad para el trabajo en
+                    equipo
+                    bajo presión, atención al detalle y resiliencia ante problemas complejos. Busco aportar mi enfoque
+                    metódico y mi rápida adaptabilidad técnica a un equipo de desarrollo donde pueda seguir creciendo
+                    profesionalmente.</p>
+                <div class="botones">
+                    <a href="#" onclick="abrirPestana('proyectos')" class="btn btn-azul">Ver proyectos</a>
+                    <a href="CV_Leyre_Final.pdf" target="_blank" class="btn btn-verde">Descargar CV</a>
+                    <a href="#" onclick="abrirPestana('contacto')" class="btn btn-azul">Contactar</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- 2. SOBRE MÍ -->
+        <section id="sobre-mi" class="seccion fondo-gris">
+            <h2>Sobre mí</h2>
+            <p>Tras prepararme de forma autónoma para superar la prueba de acceso, hoy puedo decir que he encontrado en
+                la
+                programación el sector al que quiero dedicar mi futuro.
+                Mi perfil no es el de una estudiante tradicional. Durante más de siete años he trabajado en sectores de
+                altísima exigencia: desde la cadena de montaje en Renault, hasta cocinas de gran volumen y ventas
+                directas.
+                Esta etapa fue crucial en mi vida para dotarme de resiliencia a prueba de balas, resolución en entornos
+                bajo
+                presión, gestión impecable del tiempo y gran capacidad para trabajar en equipo.
+                Hoy transformo toda esa energía y ética de trabajo en código. <br><br>Actualmente estoy construyendo mi
+                base
+                técnica en: <br><b>Lenguajes:</b> Java, Python, Kotlin. <br><b>Bases de datos:</b> SQL.
+                <br><b>Herramientas:</b> GitHub, Android Studio.
+                <br><br>Me considero una persona independiente, constante y a la que le apasionan los retos, y esto es
+                algo
+                que aplico tanto depurando código como superándome en el gimnasio o en mis rutas de senderismo por la
+                naturaleza.
+                <br><br>Busco mi primera oportunidad como Desarrolladora Junior. Si buscas en tu equipo a alguien que
+                combine conocimientos técnicos recientes con la madurez, la responsabilidad y la adaptabilidad del mundo
+                laboral real, <br><a href="#" onclick="abrirPestana('contacto')"
+                    style="font-weight: bold; color: #0056b3;">¡me encantaría que conectáramos!</a>
+            </p>
+            <ul>
+                <li><strong>Formación:</strong> CFGS Desarrollo de Aplicaciones Multiplataforma (2025-2027).</li>
+                <li><strong>Idiomas:</strong> Inglés B2 (Oxford).</li>
+                <li><strong>Disponibilidad:</strong> Incorporación inmediata. Movilidad geográfica.</li>
+                <li><strong>Otros:</strong> Carné B y vehículo propio.</li>
+            </ul>
+        </section>
+
+        <!-- 3. PROYECTOS -->
+        <section id="proyectos" class="seccion">
+            <h2>Proyectos y Trabajos</h2>
+
+            <div class="tarjeta-proyecto">
+                <h3>Aplicación de Gestión de La Liga de Fútbol</h3>
+
+                <div style="display: flex; gap: 15px; margin-bottom: 20px; overflow-x: auto;">
+                    <a href="captura-liga1.png" data-fancybox="galeria-liga" data-caption="Menú de gestión de Equipos"
+                        style="flex: 1;">
+                        <img src="captura-liga1.png" alt="Pestaña Jugadores"
+                            style="width: 100%; border-radius: 4px; border: 1px solid #ddd; transition: transform 0.3s;">
+                    </a>
+                    <a href="captura-liga2.png" data-fancybox="galeria-liga" data-caption="Menú de gestión de Jugadores"
+                        style="flex: 1;">
+                        <img src="captura-liga2.png" alt="Pestaña Equipos"
+                            style="width: 100%; border-radius: 4px; border: 1px solid #ddd; transition: transform 0.3s;">
+                    </a>
+                    <a href="captura-liga3.png" data-fancybox="galeria-liga" data-caption="Menú de Estadísticas"
+                        style="flex: 1;">
+                        <img src="captura-liga3.png" alt="Pestaña Estadísticas"
+                            style="width: 100%; border-radius: 4px; border: 1px solid #ddd; transition: transform 0.3s;">
+                    </a>
+                </div>
+
+                <p><strong>Descripción:</strong> Desarrollo colaborativo de una aplicación de escritorio completa para
+                    la
+                    gestión integral de la Primera División de Fútbol. Proyecto final de primer curso desarrollado en un
+                    equipo de tres personas.</p>
+
+                <p><strong>Herramientas:</strong> Java, MySQL, FlatLaf (UI), GitHub (Control de versiones en equipo),
+                    NetBeans.</p>
+
+                <p><strong>Proceso:</strong> Diseño del modelo relacional, inserción de datos reales, programación de la
+                    lógica en Java y reparto de tareas mediante repositorios.</p>
+
+                <p><strong>Resultado:</strong> Una aplicación robusta con menús navegables para gestionar de forma
+                    persistente equipos, jugadores y sus estadísticas.</p>
+
+                <p><strong>Dificultades:</strong> Coordinar las fusiones de código entre los tres compañeros y gestionar
+                    la
+                    vinculación de las claves foráneas en la base de datos.</p>
+
+                <p><strong>Aprendizaje:</strong> Importancia de la comunicación técnica, el uso de Git en entornos
+                    colaborativos y la estructuración del código.</p>
+            </div>
+        </section>
+
+        <!-- 4. COMPETENCIAS -->
+        <section id="competencias" class="seccion fondo-gris">
+            <h2>Competencias Profesionales</h2>
+            <div class="competencia">
+                <h3>Trabajo bajo presión y priorización</h3>
+                <p>Demostrado durante mis 5 años gestionando el flujo y estrés en cocinas de alta demanda, lo que ahora
+                    me
+                    permite afrontar entregas de proyectos (sprints) sin perder la calma.</p>
+            </div>
+            <div class="competencia">
+                <h3>Metodología y atención al detalle</h3>
+                <p>Aplicado como especialista en cadena de montaje (Renault). En desarrollo de software, lo traduzco en
+                    escribir código estructurado, comentar funciones y buscar bugs de forma sistemática.</p>
+            </div>
+            <div class="competencia">
+                <h3>Desarrollo Técnico</h3>
+                <p>Diseño e implementación de bases de datos relacionales y Programación Orientada a Objetos en Java y
+                    Python, demostrable en mis prácticas de clase.</p>
+            </div>
+        </section>
+
+        <!-- 5. CV DESCARGABLE -->
+        <section id="cv" class="seccion">
+            <h2>Currículum Vitae</h2>
+            <p>Puedes descargar aquí mi currículum en formato PDF: </p>
+            <!-- En el href pondrás el nombre de tu archivo PDF cuando lo subamos -->
+            <a href="CV_Leyre_Dominguez.pdf" target="_blank" class="btn btn-verde">Descargar CV en PDF</a>
+        </section>
+
+        <!-- 6. CONTACTO -->
+        <section id="contacto" class="seccion fondo-gris">
+            <h2>Contacto</h2>
+            <p><strong>Ubicación:</strong> Valladolid, España</p>
+            <p><strong>Email profesional:</strong> leyreds6@hotmail.com</p>
+            <div class="enlaces-contacto">
+                <a href="https://www.linkedin.com/in/leyre-dom%C3%ADnguez-sanz-6755472b4/" target="_blank">LinkedIn</a>
+                |
+                <a href="https://github.com/leyreeley" target="_blank">GitHub</a>
+            </div>
+        </section>
+    </div>
+
+    <!-- Script de Fancybox -->
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+    <script>
+        // Inicializar Fancybox
+        Fancybox.bind("[data-fancybox]", {
+            // Aquí puedes añadir opciones, pero por defecto funciona perfecto
+        });
+    </script>
+
+    <script>
+        function abrirPestana(idPestana) {
+            // Oculta todas las secciones
+            let secciones = document.querySelectorAll('.seccion');
+            secciones.forEach(sec => sec.classList.remove('activa'));
+
+            // Muestra solo la que has clicado
+            document.getElementById(idPestana).classList.add('activa');
+        }
+    </script>
+</body>
+
+</html>
